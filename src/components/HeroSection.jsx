@@ -1,8 +1,8 @@
 import { ArrowDown, Sparkles, FileImage, Download } from "lucide-react";
 
 const steps = [
-  { icon: FileImage, title: "Pick a Template", desc: "Choose from our gallery of pre-designed lab file covers." },
-  { icon: Sparkles, title: "Fill 3 Details", desc: "Enter your Name, Roll Number, and Branch — that's it." },
+  { icon: FileImage, title: "Pick a Template", desc: "Choose from our gallery of pre-designed covers." },
+  { icon: Sparkles, title: "Fill All Details", desc: "Enter your information into the required fields — that's it." },
   { icon: Download, title: "Download & Print", desc: "Download your ready-to-print cover as PDF or PNG." },
 ];
 
@@ -28,8 +28,8 @@ export default function HeroSection({ onGetStarted }) {
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg text-gray-500 mb-10">
-          Select your cover, fill in three details, and download your
-          ready-to-print lab file. No design skills needed.
+          Select your cover, fill in all details, and download your
+          ready-to-print cover file. No design skills needed.
         </p>
 
         {/* CTA */}

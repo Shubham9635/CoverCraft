@@ -35,7 +35,7 @@ const templates = [
       {
         key: "name",
         label: "Student Name",
-        placeholder: "Shubham Gupta",
+        placeholder: "e. g. Shubham Gupta",
         group: "student-info",
         xFrac: 152 / 716,
         yFrac: 576 / 1024,
@@ -170,7 +170,7 @@ const templates = [
       {
         key: "name",
         label: "Student Name",
-        placeholder: "Shubham Gupta",
+        placeholder: "e. g. Shubham Gupta",
         group: "student-info",
         xFrac: 116 / 789,
         yFrac: 807 / 1024,
@@ -234,7 +234,7 @@ const templates = [
       {
         key: "name",
         label: "Student Name",
-        placeholder: "Shubham Gupta",
+        placeholder: "e. g. Shubham Gupta",
         group: "student-info",
         xFrac: 106 / 722,
         yFrac: 554 / 1024,

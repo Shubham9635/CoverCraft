@@ -49,7 +49,7 @@ const FIELD_META = {
   },
   name: {
     maxLength: 50,
-    placeholder: "Shubham Gupta",
+    placeholder: "e. g. Shubham Gupta",
     helperText: "Full name as per official records",
     pattern: /^[a-zA-Z\s.'-]{2,50}$/,
     errorMsg: "Please enter a valid student name.",
@@ -107,13 +107,12 @@ export default function DetailsForm({
         <div className="relative">
           <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
             <Icon
-              className={`w-4 h-4 transition-colors ${
-                hasError
+              className={`w-4 h-4 transition-colors ${hasError
                   ? "text-red-500"
                   : value.trim()
-                  ? "text-purple-600"
-                  : "text-gray-400"
-              }`}
+                    ? "text-purple-600"
+                    : "text-gray-400"
+                }`}
             />
           </div>
 
@@ -127,10 +126,9 @@ export default function DetailsForm({
             disabled={disabled}
             autoComplete="off"
             className={`block w-full pl-10 pr-4 py-2.5 sm:py-3 text-sm rounded-xl border font-medium transition-all outline-none
-              ${
-                hasError
-                  ? "border-red-400 bg-red-50/50 text-gray-900 focus:ring-2 focus:ring-red-200"
-                  : value.trim()
+              ${hasError
+                ? "border-red-400 bg-red-50/50 text-gray-900 focus:ring-2 focus:ring-red-200"
+                : value.trim()
                   ? "border-purple-200 bg-purple-50/20 text-gray-900 focus:border-purple-600 focus:ring-2 focus:ring-purple-100"
                   : "border-gray-200 bg-gray-50/30 text-gray-900 hover:border-gray-300 focus:border-purple-600 focus:bg-white focus:ring-2 focus:ring-purple-100"
               }

@@ -115,7 +115,7 @@ export default function App() {
               Select a Template Above to Continue
             </h3>
             <p className="text-sm text-gray-500 mt-1 max-w-md mx-auto">
-              Choose either <strong>Programming Lab File</strong> or <strong>Assignment Cover</strong> from Step 1 above. The details form and live preview will open instantly.
+              Choose any cover template from Step 1 above. The details form and live preview will open instantly.
             </p>
           </div>
         </section>

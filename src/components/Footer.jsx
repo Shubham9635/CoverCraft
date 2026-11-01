@@ -1,4 +1,4 @@
-import { Heart, BookOpen, Code2 } from "lucide-react";
+import { Heart, BookOpen } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -15,30 +15,37 @@ export default function Footer() {
             </span>
           </div>
 
-          {/* Developer Credit */}
-          <p className="text-xs text-gray-400 text-center flex items-center justify-center gap-1.5 flex-wrap">
-            <span>Designed &amp; Developed with</span>
-            <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500 inline" />
-            <span>by</span>
-            <span className="inline-flex items-center gap-1 text-white font-semibold bg-gray-900 border border-gray-800 px-2 py-0.5 rounded-md hover:border-purple-500/50 hover:text-purple-300 transition-all">
-              <Code2 className="w-3 h-3 text-purple-400" />
-              Shubham Gupta
-            </span>
+          {/* Copy */}
+          <p className="text-xs text-gray-400 text-center flex items-center gap-1.5">
+            Crafted with <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500 inline" /> for college &amp; university students
           </p>
 
-          {/* Quick Links */}
+          {/* Links */}
           <div className="flex items-center gap-5 text-xs text-gray-400">
             <a href="#templates" className="hover:text-white transition-colors">Templates</a>
             <a href="#how-it-works" className="hover:text-white transition-colors">How it works</a>
-            <span className="text-gray-700">|</span>
+            <span className="text-gray-600">|</span>
             <span className="text-gray-400">Print-Ready A4</span>
           </div>
         </div>
 
         <div className="mt-8 pt-6 border-t border-gray-800/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-400">
-          <p>© {new Date().getFullYear()} CoverCraft · Built by Shubham Gupta</p>
+          <p>© {new Date().getFullYear()} CoverCraft. Zero registration needed.</p>
           <p className="text-gray-400">Pre-designed cover templates remain 100% original.</p>
         </div>
+
+        {/* Developer Credit at the very bottom */}
+        <p className="mt-4 text-center text-xs text-gray-400 font-medium">
+          Created and developed by{" "}
+          <a
+            href="https://www.linkedin.com/in/shubham-gupta-9a6a7b308/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-200 font-semibold hover:text-purple-400 hover:underline transition-colors inline-flex items-center gap-1"
+          >
+            Shubham Gupta
+          </a>
+        </p>
       </div>
     </footer>
   );

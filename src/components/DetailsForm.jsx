@@ -56,7 +56,7 @@ const FIELD_META = {
   },
   rollNumber: {
     maxLength: 30,
-    placeholder: "2423",
+    placeholder: "e. g. 2423",
     helperText: "College / University roll number",
     pattern: /^[a-zA-Z0-9\s/_-]{1,30}$/,
     errorMsg: "Please enter your roll number.",

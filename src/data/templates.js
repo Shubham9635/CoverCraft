@@ -49,7 +49,7 @@ const templates = [
       {
         key: "rollNumber",
         label: "Roll Number",
-        placeholder: "2423",
+        placeholder: "e. g. 2423",
         group: "student-info",
         xFrac: 152 / 716,
         yFrac: 602 / 1024,
@@ -185,7 +185,7 @@ const templates = [
       {
         key: "rollNumber",
         label: "Roll Number",
-        placeholder: "2423",
+        placeholder: "e. g. 2423",
         group: "student-info",
         xFrac: 116 / 789,
         yFrac: 846 / 1024,
@@ -248,7 +248,7 @@ const templates = [
       {
         key: "rollNumber",
         label: "Roll Number",
-        placeholder: "2423",
+        placeholder: "e. g. 2423",
         group: "student-info",
         xFrac: 115 / 722,
         yFrac: 583 / 1024,

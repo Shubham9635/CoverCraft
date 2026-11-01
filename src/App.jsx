@@ -11,7 +11,7 @@ import { PenLine, Eye, Sparkles, CheckCircle2, ArrowUp, MousePointerClick } from
 
 const INITIAL_DETAILS = {
   name: "",
-  rollNumber: "2423",
+  rollNumber: "",
   branch: "",
   subjectName: "",
   unit: "",
